@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="11" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-18T19:15:34 AEST" name="SanitySuite" finished-at="2021-07-18T19:16:57 AEST" duration-ms="82899">
+    <groups>
+    </groups>
+    <test started-at="2021-07-18T19:15:34 AEST" name="Jupiter Test Automation" finished-at="2021-07-18T19:16:57 AEST" duration-ms="82899">
+      <class name="com.jupiter.tests.Jupiter_ContactPage">
+        <test-method is-config="true" signature="setEnvironment()[pri:0, instance:com.jupiter.tests.Jupiter_ContactPage@20f5239f]" started-at="2021-07-18T19:15:34 AEST" name="setEnvironment" finished-at="2021-07-18T19:15:34 AEST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setEnvironment -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jupiter.tests.Jupiter_ContactPage@20f5239f]" started-at="2021-07-18T19:15:34 AEST" name="setUp" finished-at="2021-07-18T19:15:39 AEST" duration-ms="5063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.jupiter.tests.Jupiter_ContactPage@20f5239f]" started-at="2021-07-18T19:15:40 AEST" name="startTest" finished-at="2021-07-18T19:15:40 AEST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jupiter.tests.Jupiter_ContactPage.TC_01_ValidateFieldsOnContactPage(java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="TC_01_ValidateFieldsOnContactPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jupiter.tests.Jupiter_ContactPage@20f5239f]" started-at="2021-07-18T19:15:40 AEST" name="TC_01_ValidateFieldsOnContactPage" data-provider="data" finished-at="2021-07-18T19:15:44 AEST" duration-ms="4562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester1@testmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Validatate Mandatory Fields]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_ValidateFieldsOnContactPage -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.jupiter.tests.Jupiter_ContactPage@20f5239f]" started-at="2021-07-18T19:15:44 AEST" name="endTest" finished-at="2021-07-18T19:15:44 AEST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.jupiter.tests.Jupiter_ContactPage@20f5239f]" started-at="2021-07-18T19:15:44 AEST" name="startTest" finished-at="2021-07-18T19:15:44 AEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jupiter.tests.Jupiter_ContactPage.TC_02_VerifyFeedbackSubmission(java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException,java.lang.AssertionError]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="TC_02_VerifyFeedbackSubmission(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jupiter.tests.Jupiter_ContactPage@20f5239f]" started-at="2021-07-18T19:15:44 AEST" name="TC_02_VerifyFeedbackSubmission" data-provider="data" finished-at="2021-07-18T19:15:53 AEST" duration-ms="8179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester2@testmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Validate Feedback Submission]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_VerifyFeedbackSubmission -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.jupiter.tests.Jupiter_ContactPage@20f5239f]" started-at="2021-07-18T19:15:53 AEST" name="endTest" finished-at="2021-07-18T19:15:53 AEST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.jupiter.tests.Jupiter_ContactPage@20f5239f]" started-at="2021-07-18T19:15:53 AEST" name="startTest" finished-at="2021-07-18T19:15:53 AEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jupiter.tests.Jupiter_ContactPage.TC_02_VerifyFeedbackSubmission(java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException,java.lang.AssertionError]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="TC_02_VerifyFeedbackSubmission(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jupiter.tests.Jupiter_ContactPage@20f5239f]" started-at="2021-07-18T19:15:53 AEST" name="TC_02_VerifyFeedbackSubmission" data-provider="data" finished-at="2021-07-18T19:15:58 AEST" duration-ms="5358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester2@testmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Validate Feedback Submission]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_VerifyFeedbackSubmission -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.jupiter.tests.Jupiter_ContactPage@20f5239f]" started-at="2021-07-18T19:15:58 AEST" name="endTest" finished-at="2021-07-18T19:15:58 AEST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.jupiter.tests.Jupiter_ContactPage@20f5239f]" started-at="2021-07-18T19:15:58 AEST" name="startTest" finished-at="2021-07-18T19:15:58 AEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jupiter.tests.Jupiter_ContactPage.TC_02_VerifyFeedbackSubmission(java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException,java.lang.AssertionError]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="TC_02_VerifyFeedbackSubmission(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jupiter.tests.Jupiter_ContactPage@20f5239f]" started-at="2021-07-18T19:15:58 AEST" name="TC_02_VerifyFeedbackSubmission" data-provider="data" finished-at="2021-07-18T19:16:05 AEST" duration-ms="6363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester2@testmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Validate Feedback Submission]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_VerifyFeedbackSubmission -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.jupiter.tests.Jupiter_ContactPage@20f5239f]" started-at="2021-07-18T19:16:05 AEST" name="endTest" finished-at="2021-07-18T19:16:05 AEST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.jupiter.tests.Jupiter_ContactPage@20f5239f]" started-at="2021-07-18T19:16:05 AEST" name="startTest" finished-at="2021-07-18T19:16:05 AEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jupiter.tests.Jupiter_ContactPage.TC_02_VerifyFeedbackSubmission(java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException,java.lang.AssertionError]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="TC_02_VerifyFeedbackSubmission(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jupiter.tests.Jupiter_ContactPage@20f5239f]" started-at="2021-07-18T19:16:05 AEST" name="TC_02_VerifyFeedbackSubmission" data-provider="data" finished-at="2021-07-18T19:16:26 AEST" duration-ms="21134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester2@testmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Validate Feedback Submission]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_VerifyFeedbackSubmission -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.jupiter.tests.Jupiter_ContactPage@20f5239f]" started-at="2021-07-18T19:16:26 AEST" name="endTest" finished-at="2021-07-18T19:16:26 AEST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.jupiter.tests.Jupiter_ContactPage@20f5239f]" started-at="2021-07-18T19:16:26 AEST" name="startTest" finished-at="2021-07-18T19:16:26 AEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jupiter.tests.Jupiter_ContactPage.TC_02_VerifyFeedbackSubmission(java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException,java.lang.AssertionError]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="TC_02_VerifyFeedbackSubmission(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jupiter.tests.Jupiter_ContactPage@20f5239f]" started-at="2021-07-18T19:16:26 AEST" name="TC_02_VerifyFeedbackSubmission" data-provider="data" finished-at="2021-07-18T19:16:42 AEST" duration-ms="16507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester2@testmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Validate Feedback Submission]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_VerifyFeedbackSubmission -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.jupiter.tests.Jupiter_ContactPage@20f5239f]" started-at="2021-07-18T19:16:42 AEST" name="endTest" finished-at="2021-07-18T19:16:42 AEST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jupiter.tests.Jupiter_ContactPage@20f5239f]" started-at="2021-07-18T19:16:57 AEST" name="tearDown" finished-at="2021-07-18T19:16:57 AEST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.jupiter.tests.Jupiter_ContactPage -->
+      <class name="com.jupiter.tests.Jupiter_ShopCartPage">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.jupiter.tests.Jupiter_ShopCartPage@57af006c]" started-at="2021-07-18T19:16:42 AEST" name="startTest" finished-at="2021-07-18T19:16:42 AEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jupiter.tests.Jupiter_ShopCartPage.TC_03_VerifyTheShoppingCartData() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="TC_03_VerifyTheShoppingCartData()[pri:0, instance:com.jupiter.tests.Jupiter_ShopCartPage@57af006c]" started-at="2021-07-18T19:16:42 AEST" name="TC_03_VerifyTheShoppingCartData" finished-at="2021-07-18T19:16:46 AEST" duration-ms="3386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_VerifyTheShoppingCartData -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.jupiter.tests.Jupiter_ShopCartPage@57af006c]" started-at="2021-07-18T19:16:46 AEST" name="endTest" finished-at="2021-07-18T19:16:46 AEST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method signature="TC_04_VerifyPriceDetailsOfCartData()[pri:0, instance:com.jupiter.tests.Jupiter_ShopCartPage@57af006c]" started-at="2021-07-18T19:16:46 AEST" name="TC_04_VerifyPriceDetailsOfCartData" finished-at="2021-07-18T19:16:57 AEST" duration-ms="10782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_VerifyPriceDetailsOfCartData -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.jupiter.tests.Jupiter_ShopCartPage@57af006c]" started-at="2021-07-18T19:16:46 AEST" name="startTest" finished-at="2021-07-18T19:16:46 AEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jupiter.tests.Jupiter_ShopCartPage.TC_04_VerifyPriceDetailsOfCartData() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.jupiter.tests.Jupiter_ShopCartPage@57af006c]" started-at="2021-07-18T19:16:57 AEST" name="endTest" finished-at="2021-07-18T19:16:57 AEST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.jupiter.tests.Jupiter_ShopCartPage -->
+    </test> <!-- Jupiter Test Automation -->
+  </suite> <!-- SanitySuite -->
+</testng-results>
